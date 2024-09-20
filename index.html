@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        
+        <div class="logo">
+            <span >
+            <img src="assets/image.png" alt="logo" >
+        </span>
+        </div>
+        <ul class="nav-links">
+            <li>Become a Sitter</li>
+            <li>Our Services</li>
+            <li><button class="signinBtn">Sign in</button></li>
+            <img src="assets/image copy 2.png" alt="flag" class="flag">
+           
+        </ul>
+    </nav>
+    <div class="hero-section">
+        <section class="sect1">
+            <img src="assets/image copy.png" alt="Dog Image" class="hero-image">
+            <div class="form-container">
+                <img src="assets/formdog.png" alt="" class="form-dog-image">
+                <form action="">
+                    <p class="form-title">Book trusted sitters and dog walkers.</p>
+                    <div class="service-selection">
+                        <p>For When You're Away</p>
+                        <img src="assets/formBoarding.png" alt="Boarding" class="service-icon">
+                        <img src="assets/form_sitting.png" alt="Sitting" class="service-icon">
+                        <img src="assets/form_visit.png" alt="Visit" class="service-icon">
+                    </div>
+                    <div class="frequency-selection">
+                        <p>How often do you need these services?</p>
+                        <input type="radio" id="one-time" name="choice" value="one-time">
+                        <label for="one-time">One Time</label>
+                        <input type="radio" id="repeat-weekly" name="choice" value="repeat-weekly">
+                        <label for="repeat-weekly">Repeat Weekly</label>
+                    </div>
+                    <label for="location">Find near you</label>
+                    <input type="text" id="location" placeholder="Zip code or Postal Code" required>
+    
+                    <label for="start-date">For What dates</label>
+                    <input type="date" id="start-date" required>
+                    <input type="date" id="end-date" required>
+    
+                    <p>My pet size</p>
+                    <div class="pet-size-selection">
+                        <button type="button" class="pet-size-button" data-value="small">Small:0-7kg</button>
+                        <button type="button" class="pet-size-button" data-value="medium">Medium:8-20kg</button>
+                        <button type="button" class="pet-size-button" data-value="large">Large:21-45kg</button>
+                        <button type="button" class="pet-size-button" data-value="massive">Massive 46+kg</button>
+
+                    </div>
+
+    
+                    <button type="submit" class="submit-button">Search</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    
+     
+    
+    <div class="services-section">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="assets/boarding.png" alt="">
+                <li>Boarding</li>
+                <p>Your pets stay overnight in your sitter’s home. They’ll be treated like part of the family in a comfortable environment.</p>
+            </div>
+            <div class="service">
+                <img src="assets/House_sitting.png" alt="">
+                <li>Boarding</li>
+                <p>Your sitter takes care of your pets and your home. Your pets will get all the attention they need without leaving home.</p>
+            </div>
+            <div class="service">
+                <img src="assets/dog_walking.png" alt="">
+                <li>Boarding</li>
+                <p>Your dog gets a walk around your neighborhood. Perfect for busy days and dogs with extra energy to burn.</p>
+            </div>
+            <div class="service">
+                <img src="assets/dog_visit.png" alt="">
+                <li>Boarding</li>
+                <p>Pawsome care for your furry friend! Our drop-in visits ensure they get the love and attention they deserve.</p>
+            </div>
+            <div class="service">
+                <img src="assets/dog_care.png" alt="">
+                <li>Boarding</li>
+                <p>Your dog spends the day at your sitter’s home. Drop them off in the morning and pick up a happy pup in the evening.</p>
+            </div>
+        </div>
+    </div>
+    <div class="book_section">
+       
+        <div class="bookImg-section">
+            <img src="assets/book_img.png" alt="Person with a dog and laptop">
+        </div>
+
+       
+        <div class="booking_detail">
+            <h1>Sign up now and get 30% off your first Booking</h1>
+            <p>Experience the best pet-friendly services with professional dog grooming experts.</p>
+            <button class="bookBtn">Book Now</button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <h1 class="card_heading">Meet Our Local Sitters</h1>
+        <div class="container_barkee">
+            <div class="card">
+                <img src="assets/search.jpg" alt="Search Icon">
+                <h2>Search</h2>
+                <p>Read verified reviews by pet parents like you to choose a sitter who's a great match for you and your pets.</p>
+            </div>
+            <div class="card">
+                <img src="assets/book_pay.jpg" alt="Book & Pay Icon">
+                <h2>Book & Pay</h2>
+                <p>No cash or checks needed. We make it simple to book and make secure payments through our website or app.</p>
+            </div>
+            <div class="card">
+                <img src="assets/relax.jpg" alt="Relax Icon">
+                <h2>Relax</h2>
+                <p>Your pets are in great hands with a loving sitter. Plus your booking is backed by 24/7 support and the Barking Guarantee.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container_barkee">
+        <h1 class="card_heading">Meet Our Barkee Walker</h1>
+        <div class="container">
+            <div class="card_barkee">
+                <img src="assets/dog_walker.jpg" alt="Search Icon">
+                <h2>Search For A Dog Walker</h2>
+                <p>Step aside, boredom! Our dog walking service brings joy and excitement to every stroll</p>
+            </div>
+            <div class="card_barkee">
+                <img src="assets/meet.jpg" alt="Book & Pay Icon">
+                <h2>Organize a free meet</h2>
+                <p>Inviting all furry friends and their humans to our free dog meet! Let's wag, sniff, and play together</p>
+            </div>
+            <div class="card_barkee">
+                <img src="assets/confirm_booking.jpg" alt="Relax Icon">
+                <h2>Confirm Booking</h2>
+                <p>Ready to make your dog's day? Confirm their booking now and let the excitement begin!</p>
+            </div>
+        </div>
+    </div>
+    <div class="faq-container">
+        <div class="faq-left">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about our dog care services, booking process, and safety measures.</p>
+        </div>
+        <div class="faq-right">
+            <div class="faq-item">
+                <h3>How do I book?</h3>
+                <p>Booking our dog care services is easy. Simply visit our website, select the desired service, choose the date and time, and proceed to checkout.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are your rates?</h3>
+            </div>
+            <div class="faq-item">
+                <h3>Are you insured?</h3>
+            </div>
+            <div class="faq-item">
+                <h3>Do you offer dog walking?</h3>
+            </div>
+        </div>
+    </div>
+<div class="banner">
+    <div class="dog-image">
+        <img src="assets/dog.png" alt="Dog Image">
+    </div>
+
+    <div class="download-banner">
+        <div class="download-content">
+            <h2>Download Barkee Now!</h2>
+            <p>Be the first to explore and get rewarded with one of the best applications.</p>
+            <div class="download-buttons">
+               <img  src="assets/download.png" alt="App Store">
+               
+            </div>
+        </div>
+    </div>
+</div>
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section logo-section">
+           <img src="assets/footerlogo.png" alt="" width="114px" height="38px">
+            <p>We provide the best service for your pets.<br> Please come and visit our shop.</p>
+            <div class="social-icons">
+              <a href="#"><img src="assets/insta.png" alt="Instagram"></a>
+              <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+              <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+              <a href="#"><img src="assets/tiktok.png" alt="TikTok"></a>
+            </div>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Walking</a></li>
+              <li><a href="#">Daily Drop-Ins</a></li>
+              <li><a href="#">Pet sittings</a></li>
+              <li><a href="#">Training</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Popular Locations</h3>
+            <ul>
+              <li><a href="#">San Francisco</a></li>
+              <li><a href="#">Los Angeles</a></li>
+              <li><a href="#">Chicago</a></li>
+              <li><a href="#">New York</a></li>
+              <li><a href="#">Athens Greece</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Apply</h3>
+            <ul>
+              <li><a href="#">Become a Dog Walker</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>© 2024 barkee, Inc. All rights reserved.</p>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Transparency</a></li>
+            <li><a href="#">Notice to CA Residents</a></li>
+          </ul>
+        </div>
+      </footer>
+      
+    
+</body>
+</html>

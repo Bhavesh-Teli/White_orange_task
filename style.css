@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2bb673; 
+    padding: 10px 30px;
+    font-family: Arial, sans-serif;
+}
+.navbar .logo img {
+    width: 200px;
+    height: auto;
+    margin-right: 50px;
+}
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navbar .nav-links li {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+}
+.signinBtn {
+    background-color: white;
+    color: #030303;
+    border: 1px solid #2bb673;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signin-btn:hover {
+    background-color: green;
+    color: white;
+}
+.flag {
+    width: 52px;
+    height: 32px;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #e8f5e9;
+}
+.sect1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.hero-image {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+.form-dog-image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.form-container {
+    width: 50%;
+    padding-left: 20px;
+}
+.form-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.service-selection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.service-icon {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+.frequency-selection {
+    margin-bottom: 20px;
+}
+.frequency-selection p {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #555;
+}
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.pet-size-selection {
+    display: flex;
+    margin-bottom: 20px;
+}
+.pet-size-button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.submit-button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 46vw;
+}
+.submit-button:hover {
+    background-color: #333;
+}
+.services-section {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.services-section h2 {
+    font-size: 28px;
+}
+.services-section ul {
+    list-style-type: none;
+}
+.services-section ul li {
+    font-size: 28px;
+    color: white;
+    background-color: #2bb673;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    gap: 0px;
+}
+.service {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 289px;
+    height: 213px;
+    text-align: center;
+}
+.service img {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 10px;
+}
+.service li {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.service p {
+    font-size: 14px;
+    color: #555;
+    width: 289px;
+    height: 72px;
+    margin-bottom: 10px;
+}
+.book_section {
+    display: flex;
+}
+.bookImg-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bookImg-section img {
+    height: 500px;
+}
+.booking_detail {
+    background-color: #2bb673;
+    color: white;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.booking_detail h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.booking_detail p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 472px;
+}
+.bookBtn {
+    background-color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    width: 166px;
+}
+.container, .container_barkee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.card_heading {
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.card, .card_barkee {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img, .card_barkee img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.card_barkee img {
+    width: 254px;
+    height: 254px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p {
+    color: #666;
+    line-height: 1.5;
+}
+.footer {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+.footer-section {
+    text-align: left;
+}
+.footer-logo {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer p {
+    margin-top: 10px;
+    color: #666;
+}
+.social-icons {
+    display: flex;
+    margin-top: 15px;
+}
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-section ul li a:hover {
+    color: #2bb673;
+}
+.footer-bottom {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+.footer-links li {
+    margin: 0 10px;
+}
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: flex-start;
+}
+.faq-left {
+    width: 40%;
+}
+.faq-left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.faq-left p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.faq-right {
+    width: 50%;
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+.faq-item h3 {
+    font-size: 18px;
+    color: #000;
+}
+.faq-item p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+.dog-image img {
+    width: 200px;
+    height: auto;
+    margin-left: 200px;
+}
+.download-banner {
+    background-color: #50b5c1;
+    padding: 50px 0;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.download-banner h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+.download-banner p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+.download-buttons img {
+    width: 150px;
+}
